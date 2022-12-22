@@ -37,41 +37,46 @@
     </header>
     <main>
         <section>
-            <form class="grid">
-                <h1 class="fuente">¿Donde estamos?</h1>
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2368.9714437510806!2d-68.85785071885302!3d-32.89204585377585!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1669840153338!5m2!1ses-419!2sar"
-                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </form>
-            <fieldset>
-                <legend class="fuente">CONTACTO:</legend>
-                <div>
-                    <label class="fuente">Nombre</label>
-                    <input type="text" placeholder="Antonella">
-
-                    <label class="fuente">Apellido</label>
-                    <input type="text" placeholder="Maino">
-
-                    <label class="fuente">Email</label>
-                    <input type="text" placeholder="usuario@gmail.com">
+            <h1 class="fuente">¿Donde estamos?</h1>
+            <iframe class="login"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d53609.02109433058!2d-68.89353871237934!3d-32.88325824027139!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e093ec45179bf%3A0x205a78f6d20efa3a!2sMendoza%2C%20Capital%2C%20Mendoza!5e0!3m2!1ses-419!2sar!4v1671669368389!5m2!1ses-419!2sar"
+                width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <fieldset class="login">
+                <div class="form-group">
+                    <label class="form-label mt-4">CONTACTO</label>
                     <br>
-                    <input type="submit" value="Enviar">
-                    <input type="reset" value="Borrar formulario">
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                        placeholder="Enter email">
+
+                    <input type="name" class="form-control" id="exampleInputname1" aria-describedby="nameHelp"
+                        placeholder="Enter name">
+
+                    <input type="cellnumber" class="form-control" id="exampleInputcellnumber1"
+                        aria-describedby="cellnumberHelp" placeholder="Enter cell-number">
+                </div>
+                <br>
+                <div class="btn-group" role="group" aria-label="Basic example">
+                    <button type="button" class="btn btn-secondary">ENVIAR</button>
+                    <button type="button" class="btn btn-secondary">BORRAR</button>
                 </div>
             </fieldset>
             <fieldset class="login">
-                <div>
-                    <label class="fuente">USUARIO</label>
-                    <input type="text" placeholder="Email">
-
-                    <label class="fuente">CONTRASEÑA</label>
-                    <input type="text" placeholder="Contraseña">
+                <div class="form-group">
+                    <label class="form-label mt-4">INGRESAR</label>
+                    <div class="form-floating mb-3">
+                        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                        <label for="floatingInput">Email address</label>
+                    </div>
+                    <div class="form-floating">
+                        <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                        <label for="floatingPassword">Password</label>
+                    </div>
                     <br>
-                    <input type="submit" value="Ingresar">
-                    <br>
-                    <input type="reset" value="Registrarse">
-                </div>
+                    <div class="btn-group" role="group" aria-label="Basic example">
+                        <button type="button" class="btn btn-secondary">ENVIAR</button>
+                        <button type="button" class="btn btn-secondary">REGISTRARSE</button>
+                    </div>
             </fieldset>
         </section>
     </main>
