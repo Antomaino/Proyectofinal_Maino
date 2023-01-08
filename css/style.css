@@ -62,7 +62,7 @@ header div img {
 
 main {
     grid-area: contenido_pricipal;
-}
+    }
 
 footer {
     grid-area: pie_de_pagina;
@@ -297,13 +297,23 @@ img {
     justify-items: center;
     align-items: center;
     gap: 5%;
-}
+ }
 
 .btn-group {
     justify-content: center;
 }
 
-@media screen and (max-width: 1023px) {
+iframe{ 
+    width: 80%;
+    justify-content: center;
+    margin-left: 10%;
+}
+
+h1{
+    text-align: center;
+}
+
+@media screen and (max-width: 7px) {
     .container {
         width: 45%;
         flex-wrap: wrap;
