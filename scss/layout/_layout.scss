@@ -1,0 +1,18 @@
+/*grid*/
+.grilla {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 20% 80%;
+    gap: 1px;
+    justify-items: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#grilla {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-template-areas: "encabezado"
+   "contenido_pricipal"
+   "pie_de_pagina"; }
+

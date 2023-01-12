@@ -1,0 +1,127 @@
+.containerr {
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.733);
+    width: 65vw;
+    max-width: 1000px;
+    min-width: 320px;
+    padding: 25px;
+
+    ul.slider {
+        position: relative;
+        width: 800px;
+        height: 400px;
+
+        li {
+            position: absolute;
+            left: 0;
+            top: 0;
+            opacity: 0;
+            width: inherit;
+            height: inherit;
+            background-color: white;
+            transition: opacity .5s;
+            justify-items: center;
+            align-items: center;
+        }
+
+        :first-child {
+            opacity: 1;
+        }
+
+        :target {
+            opacity: 1;
+        }
+
+        img {
+            width: 100%;
+            height: 400px;
+            object-fit: cover;
+        }
+    }
+}
+
+.menu {
+    text-align: center;
+    margin: 30px;
+
+    li {
+        display: inline-block;
+        text-align: center;
+
+        a {
+            display: inline-block;
+            color: white;
+            text-decoration: none;
+            background-color: grey;
+            padding: 2px;
+            width: 30px;
+            height: 25px;
+            font-size: 20px;
+            border-radius: 30px;
+        }
+    }
+}
+
+/*boostrap*/
+.container {
+    justify-items: center;
+    align-items: center;
+    gap: 5%;
+}
+
+.btn-group {
+    justify-content: center;
+}
+
+/*maps*/
+iframe {
+    width: 80%;
+    justify-content: center;
+    margin-left: 10%;
+}
+
+/*slider*/
+
+
+
+.menu {
+    text-align: center;
+    margin: 30px;
+
+    li {
+        display: inline-block;
+        text-align: center;
+
+        a {
+            display: inline-block;
+            color: white;
+            text-decoration: none;
+            background-color: grey;
+            padding: 2px;
+            width: 30px;
+            height: 25px;
+            font-size: 20px;
+            border-radius: 30px;
+        }
+    }
+}
+
+.lista {
+    padding-left: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div ul li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/*formulario*/
+.login {
+    padding: 3%;
+}
+
+.font-weight {
+    font-weight: 500;
+  }

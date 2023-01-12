@@ -1,0 +1,25 @@
+/*reset*/
+@import "../scss/reset/reset";
+
+main {
+    grid-area: contenido_pricipal;
+    padding: 2%;
+    margin-top: 2%;
+    }
+
+
+/*componentes*/
+@import "../scss/componentes/body";
+@import "../scss/componentes/footer";
+@import "../scss/componentes/header";
+@import "../scss/componentes/imagenes";
+@import "../scss/componentes/marcas";
+@import "../scss/componentes/principales";
+@import "../scss/componentes/texto";
+/*layout*/
+@import "../scss/layout/layout";
+/*views*/
+@import "../scss/views/queries";
+
+
+
