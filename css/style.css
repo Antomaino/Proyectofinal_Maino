@@ -17,6 +17,7 @@ body {
   min-height: 100vh; }
 
 footer {
+  width: 100%;
   grid-area: pie_de_pagina;
   background-color: rgba(153, 180, 202, 0.438);
   display: flex;
@@ -27,6 +28,7 @@ footer {
     width: 100%; }
 
 .navfooter {
+  width: 100%;
   display: flex;
   justify-content: center; }
 
@@ -57,6 +59,7 @@ footer div {
   color: white; }
 
 .navegacion {
+  width: 100%;
   color: black;
   display: flex;
   flex-wrap: wrap;
@@ -259,9 +262,11 @@ p {
   grid-template-areas: "encabezado" "contenido_pricipal" "pie_de_pagina"; }
 
 /*views*/
-@media (max-width: 360px) {
+@media (max-width: 440px) {
   .navegacion-footer li {
-    font-size: 12px; } }
+    font-size: 12px; }
+  .slider {
+    padding-right: 20%; } }
 
 @media (min-width: 768px) {
   .contenedor-servicios div {
